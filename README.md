@@ -182,8 +182,7 @@ SUMX(
 SUMX(
     Transactions,
     Transactions[quantity] *
-    RELATED(Products[product_cost])
-)
+    RELATED(Products[product_cost]))
 
 **Total Profit** =
 [Total Revenue] - [Total Cost]
